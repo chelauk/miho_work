@@ -23,3 +23,7 @@ doesn't quite work because several alternate alleles is greater than 3 too.
 
 perl -nae 'if (length($F[3])>3){print $F[3],"\n"}' GS800002252-ASM.vep.input
 
+in this instance
+
+1_876499_A/GG  1:876499 is an A and GG has been entered, I nearly sure this is a simple gg insertion rather than a snv + insertion event
+
